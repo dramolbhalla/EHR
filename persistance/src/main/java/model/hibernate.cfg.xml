@@ -6,9 +6,9 @@
     <session-factory name="Persistance">
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.password">!Notoca0980!</property>
-        <property name="hibernate.connection.url">jdbc:mysql://192.168.0.34:22/</property>
+        <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/</property>
         <property name="hibernate.connection.username">abhalla</property>
-        <property name="hibernate.default_schema">Users</property>
+        <property name="hibernate.default_schema">EHR</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     </session-factory>
 </hibernate-configuration>
